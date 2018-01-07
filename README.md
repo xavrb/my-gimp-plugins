@@ -9,7 +9,7 @@ A personal set of testing GIMP plugins coded in Python (some code is taken or ba
 ## Contents
 
 * [Python](./python)  
-	* [Hello World](./python/src/hello-world), a simple code that greets the user on the GIMP's information area.  ![Screenshot](./python/src/hello-world/screenshot.png)  
+	* [Hello World](./python/src/hello-world/hello-world.py), a simple code that greets the user on the GIMP's information area.  ![Screenshot](./python/src/hello-world/screenshot.png)  
 * [Script Fu (Scheme)](./script-fu)
 
 
