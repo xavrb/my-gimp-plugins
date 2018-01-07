@@ -1,4 +1,4 @@
-# my-gimp-plugins
+ñ# my-gimp-plugins
 
 
 A personal set of testing GIMP plugins coded in Python (some code is taken or based on scripts found on https://github.com/akkana/gimp-plugins, thanks)
@@ -8,7 +8,8 @@ A personal set of testing GIMP plugins coded in Python (some code is taken or ba
 
 ## Contents
 
-* [Python](./python)
+* [Python](./python)  
+	* [Hello World](./python/src/hello-world), a simple code that greets the user on the GIMP's information area.  ![Screenshot](./python/src/hello-world/screenshot.png)  
 * [Script Fu (Scheme)](./script-fu)
 
 
