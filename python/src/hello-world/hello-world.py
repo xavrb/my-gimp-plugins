@@ -1,6 +1,4 @@
-
-#!/usr/bin/env python
-
+#!/usr/bin/python
 # hello-world.py: Gimp plug-in to greet the user.
 
 # You may use and distribute this plug-in under the terms of the GPL.
@@ -12,7 +10,7 @@
 from gimpfu import *
 
 def hello_world(img, layer) :
-    ''' Inverts the colors of the selected layer.
+    ''' Greets the user.
 
     Parameters:
     img : image The current image.
@@ -22,13 +20,13 @@ def hello_world(img, layer) :
 
 register(
     "python_fu_my_hello_world",
-    "Hello_world",
+    "hello_world",
     "Greets the user.",
-    "@xavrb",
-    "Open source (BSD 3-clause license)",
-    "2013",
-    "<Image>/Filters/Test/My Hello World",
-    "*",
+    "xavrb",
+    "GNU GLP 2.0",
+    "2018",
+    "<Image>/Filters/HELLO",
+    "RGB*, GRAY*",
     [],
     [],
     hello_world)

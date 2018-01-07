@@ -10,3 +10,8 @@ A personal set of testing GIMP plugins coded in Python (some code is taken or ba
 
 * [Python](./python)
 * [Script Fu (Scheme)](./script-fu)
+
+
+### Notes
+Make sure your python code is exexutable, i.e. `chmod +x mycode.py`, otherwise Gimp ont be able to execute them. Also, make sure to use the python version gimp uses.  
+
