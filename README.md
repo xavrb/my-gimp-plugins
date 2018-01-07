@@ -5,4 +5,7 @@ A personal set of testing GIMP plugins coded in Python (some code is taken or ba
 
 
 
+## Contents
 
+* [Python](./python)
+* [Script Fu](./script-fu)
